@@ -1,0 +1,89 @@
+
+h1 {
+    text-align:center; 
+    color:rgb(13, 65, 3);
+    font-size: 55px;
+    background: rgb(193, 229, 186);
+    margin-top: 15px;
+    z-index: 8;
+}
+
+
+
+.bb {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(193, 229, 186);   
+}
+
+.pic1 {
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    padding-right: 5px;             
+}
+
+/*navigation*/
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(45, 163, 10);
+    position: fixed;
+    z-index: 10;   
+}
+
+
+li {
+    float: left;
+}
+
+
+li a,
+.down {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.li1:hover .down {
+    background-color: rgb(29, 197, 57);
+    color: white;
+}
+
+.tab {
+    display: inline-block;
+}
+
+.inner {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.inner a {
+    background-color: rgb(29, 197, 57);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.inner a:hover {
+    background-color: #39a71d;
+}
+
+.tab:hover .inner {
+    display: block;
+}
+
+/*most popular*/
+

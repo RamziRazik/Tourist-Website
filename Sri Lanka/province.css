@@ -1,0 +1,22 @@
+body {
+    background: rgb(193, 229, 186);
+    min-height: 100vh;   
+}
+
+.f1{
+    font-size: 30px;
+    font-style: unset;
+    text-align: center;
+   
+}
+
+.f2{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.pic1{
+    height: 250px;
+    width: 400px;
+}

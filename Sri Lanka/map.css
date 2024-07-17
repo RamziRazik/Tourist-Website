@@ -1,0 +1,12 @@
+.bb {
+    background-color:rgb(193, 229, 186);   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: Century Gothic;
+    background: url(map.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}

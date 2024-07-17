@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(193, 229, 186); 
+}
+
+div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 480px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .img1{
+      width: 400px;
+      height: 250px;
+  }
